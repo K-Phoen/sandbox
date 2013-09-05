@@ -38,10 +38,10 @@
 
         "sonata-project/intl-bundle": "~2.1",
         "sonata-project/block-bundle": "~2.2",
-        "sonata-project/propel-admin-bundle": "dev-master",
+        "sonata-project/propel-admin-bundle": "dev-fix-relations-descriptions",
         "sonata-project/exporter": "dev-master as 1.3.2",
         "sonata-project/user-bundle": "dev-propel",
-        "friendsofsymfony/user-bundle": "dev-fix-supported-entities-checks"
+        "friendsofsymfony/user-bundle": "dev-fix-supported-entities-checks as 1.3.3"
     },
 
     "require-dev": {
@@ -58,6 +58,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/K-Phoen/FOSUserBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/K-Phoen/SonataPropelAdminBundle.git"
         }
     ],
 
