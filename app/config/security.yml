@@ -1,6 +1,6 @@
 security:
     encoders:
-        "Application\Sonata\UserBundle\Entity\User":
+        "FOS\UserBundle\Model\UserInterface":
             algorithm: sha512
             encode_as_base64: false
             iterations: 1

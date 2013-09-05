@@ -2,19 +2,9 @@
 # more information can be found here http://sonata-project.org/bundles/user
 #
 fos_user:
-    db_driver:      orm # can be orm or odm
+    db_driver:      propel # can be orm or odm
     firewall_name:  main
-    user_class:     Application\Sonata\UserBundle\Entity\User
+    user_class:     Sonata\UserBundle\Propel\User
 
     group:
-        group_class: Application\Sonata\UserBundle\Entity\Group
-
-# Enable Doctrine to map the provided entities
-doctrine:
-    orm:
-        entity_managers:
-            default:
-                mappings:
-                    FOSUserBundle: ~
-                    ApplicationSonataUserBundle: ~
-                    SonataUserBundle: ~
+        group_class: Sonata\UserBundle\Propel\Group

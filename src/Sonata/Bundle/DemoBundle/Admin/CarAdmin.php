@@ -11,7 +11,7 @@
 
 namespace Sonata\Bundle\DemoBundle\Admin;
 
-use Sonata\AdminBundle\Admin\Admin;
+use Sonata\PropelAdminBundle\Admin\Admin;
 use Sonata\AdminBundle\Show\ShowMapper;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;

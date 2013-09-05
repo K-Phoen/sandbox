@@ -9,3 +9,8 @@ vendor
 .idea
 nbproject
 composer.phar
+
+# propel generated classes & config
+app/propel/sql
+src/*/*/*/Model/om/
+src/*/*/*/Model/map/
