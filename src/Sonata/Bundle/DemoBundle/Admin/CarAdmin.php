@@ -68,9 +68,9 @@ class CarAdmin extends Admin
     {
         $formMapper
             ->add('name')
-            ->add('engine', 'sonata_type_model_list')
-            ->add('rescueEngine')
-            ->add('createdAt')
+            ->add('engine', 'sonata_type_model')
+            ->add('rescueEngine', 'sonata_type_model')
+            ->add('created_at')
         ;
     }
 }
