@@ -1,4 +1,4 @@
-FOS\UserBundle\Propel\User:
+Sonata\UserBundle\Propel\User:
   User_1:
     username:           admin
     username_canonical: admin
